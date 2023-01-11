@@ -1,0 +1,13 @@
+
+.registro__img{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height:450px;
+}
+.svg{
+    width: 100%;
+    position: relative;
+    height: 300px;
+}

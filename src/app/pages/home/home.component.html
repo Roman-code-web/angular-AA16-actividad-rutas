@@ -1,1 +1,16 @@
-<p>home works!</p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12 bg-dark py-5">
+            <ul class="container-fluid">
+                    <li class="nav-link fs-3 fw-bold text-dark bg-light"><img style="width: 60px ;" src="https://img.icons8.com/nolan/512/menu-squared-2.png" alt="">Menu</li>
+                    <li class="nav-link" ><a class="nav-link mt-2 p-2 text-light fw-bold fs-4 text-center rounded-3  a__color " routerLinkActive="bg-primary" [routerLinkActiveOptions]="{exact: true}" routerLink="/home" >Bienvenido</a></li>
+                    <li class="nav-link" ><a class="nav-link mt-2 p-2 text-light fw-bold fs-4 text-center rounded-3  a__color " routerLinkActive="bg-primary" [routerLinkActiveOptions]="{exact: true}" routerLink="/home/peru" >Perú</a></li>
+                    <li class="nav-link"><a class="nav-link  mt-2 p-2 text-light fw-bold fs-4 text-center rounded-3 a__color " routerLinkActive="bg-primary" [routerLinkActiveOptions]="{exact: true}" routerLink="/home/chile">Chile</a></li>
+                    <li class="nav-link"><a class="nav-link  mt-2 p-2 text-light fw-bold fs-4 text-center rounded-3 a__color " routerLinkActive="bg-primary" [routerLinkActiveOptions]="{exact: true}" routerLink="/home/uruguay">Uruguay</a></li>
+            </ul>      
+        </div>
+        <div class="col-md-8 col-sm-8 col-xs-12">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

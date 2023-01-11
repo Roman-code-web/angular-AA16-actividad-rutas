@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./form-registro.component.css']
 })
 export class FormRegistroComponent {
-  tituloForm="Registrate"
+  tituloFormRegistro="Registrate"
 }
